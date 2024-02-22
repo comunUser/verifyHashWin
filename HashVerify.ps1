@@ -46,11 +46,7 @@ Write-Output $hashObtenido
 Write-Output ""
 
 if($verificarCon -eq "$hashObtenido"){
-    Write-Output "*******************"
-    Write-Output "  Datos Integros  "
-    Write-Output "*******************"
+    Write-Output " <Datos Integros>  "
 }else {
-    Write-Output "*******************"
-    Write-Output "  Datos Corruptos "
-    Write-Output "*******************"
+    Write-Output " <Datos Corruptos> "
 }
